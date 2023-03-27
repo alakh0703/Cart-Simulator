@@ -1,0 +1,42 @@
+.main { 
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 2px solid rgb(206, 100, 14); */
+    position: sticky;
+    /* height: 50px; */
+
+}
+
+.cartbtn {
+    width: 7%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.logo {
+    width: 70%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    width: 4%;
+}
+.cartcount {
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    cursor: pointer;
+    z-index: -1;
+}

@@ -1,0 +1,41 @@
+.main {
+    /* background-color: burlywood; */
+    width: 85%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+    padding: 1%;
+    overflow-y: scroll;
+
+    scroll-behavior: smooth;
+    max-height: 100vh;
+
+}
+
+/* Scrollbar Styling */
+.main::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.main::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.main::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #b6b3b3; 
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+}
